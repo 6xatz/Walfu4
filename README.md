@@ -43,7 +43,7 @@ VALUES
   > Membuat Tabel 1 khusus untuk pertanyaan Hewan.
 
   <p align="left">
-    <img src="/ss/Tabel2.jpg" width="430">
+    <img src="/ss/Tabel2.jpg" width="700">
   </p>
 
 ```sql
@@ -87,7 +87,7 @@ SELECT * FROM pegawai WHERE tunjangan IS NOT NULL;
 ```
 
   <p align="left">
-    <img src="/ss/123T1.jpg" width="430">
+    <img src="/ss/123T1.jpg" width="700">
   </p>
 
 4. Tampilkan/hitung jumlah baris/record tabel pegawai:
@@ -116,7 +116,7 @@ SELECT MAX(gaji) AS gaji_terbesar FROM pegawai;
 ```
 
   <p align="left">
-    <img src="/ss/456T1.jpg" width="430">
+    <img src="/ss/456T1.jpg" width="700">
   </p>
 
 ### Pertanyaan Tabel 2 (Hewan)
@@ -137,7 +137,7 @@ SELECT sex, COUNT(*) AS jumlah_hewan FROM hewan GROUP BY sex;
 ```
 
   <p align="left">
-    <img src="/ss/123T2.jpg" width="430">
+    <img src="/ss/123T2.jpg" width="700">
   </p>
 
 4. Tampilkan jumlah hewan berdasarkan spesies dan jenis kelamin:
@@ -162,7 +162,7 @@ GROUP BY sex;
 ```
 
   <p align="left">
-    <img src="/ss/456T2.jpg" width="430">
+    <img src="/ss/456T2.jpg" width="700">
   </p>
   
 ### Berikan Kesimpulan Anda:
